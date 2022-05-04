@@ -1,0 +1,5 @@
+2022/05/04-10:41:26.518 fcd Recovering log #32
+2022/05/04-10:41:26.518 fcd Level-0 table #34: started
+2022/05/04-10:41:26.748 fcd Level-0 table #34: 257 bytes OK
+2022/05/04-10:41:27.383 fcd Delete type=0 #32
+2022/05/04-10:41:27.383 fcd Delete type=3 #30

@@ -1,0 +1,12 @@
+2022/05/04-10:41:29.438 fda Recovering log #40
+2022/05/04-10:41:29.563 fda Level-0 table #43: started
+2022/05/04-10:41:29.668 fda Level-0 table #43: 450323 bytes OK
+2022/05/04-10:41:29.836 fda Delete type=0 #40
+2022/05/04-10:41:29.836 fda Delete type=3 #38
+2022/05/04-10:41:40.362 fdb Moved #43 to level-1 450323 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2022/05/04-10:41:43.758 fda Compacting 1@1 + 1@2 files
+2022/05/04-10:41:44.499 fda Generated table #45@1: 34347 keys, 1743765 bytes
+2022/05/04-10:41:44.499 fda Compacted 1@1 + 1@2 files => 1743765 bytes
+2022/05/04-10:41:44.529 fda compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/04-10:41:44.529 fda Delete type=2 #41
+2022/05/04-10:41:44.529 fda Delete type=2 #43
