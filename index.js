@@ -11,7 +11,12 @@ import qrcode from 'qrcode-terminal'
 import ww from 'whatsapp-web.js'
 const { Client, LocalAuth, MessageMedia } = ww
 const client = new Client({
-    authStrategy: new LocalAuth()
+    authStrategy: new LocalAuth(),
+    puppeteer: {
+      args: [
+        '--no-sandbox'
+      ]
+    }
 })
 app.get("/", (req, res) => {
     res.json({})
